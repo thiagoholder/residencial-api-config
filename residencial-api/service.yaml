@@ -6,6 +6,6 @@ spec:
   selector:
     app: residencial-api
   ports:
-  - port: 80
+  - port: 5656
     protocol: TCP
-    targetPort: 80
+    targetPort: 5656
