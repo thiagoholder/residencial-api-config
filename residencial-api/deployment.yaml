@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-app
+  name: residencial-api
 spec:
   selector:
     matchLabels:
-      app: node-app
+      app: residencial-api
   replicas: 2
   template:
     metadata:
       labels:
-        app: node-app
+        app: residencial-api
     spec:
       containers:
         - name: residencial-api
