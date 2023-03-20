@@ -17,3 +17,5 @@ spec:
           image: tomorrow.azurecr.io/residentloan:latest
           ports:
             - containerPort: 5656
+      imagePullSecrets:
+        - name: acr-secrets
