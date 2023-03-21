@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: residencial-api
-          image: tomorrow.azurecr.io/residentloan:03ec26858c494c273db21835d6f5d213ce5e6985
+          image: tomorrow.azurecr.io/residentloan:7
           ports:
             - containerPort: 5656
       imagePullSecrets:
